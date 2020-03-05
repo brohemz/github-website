@@ -3,22 +3,33 @@
   --header-text-color: grey;
   --main-text-color: black;
   background-color: light-gray;
+  font-family: sans-serif
 }
 
 h1{
-  font-size: 5rem;
+  font-size: 4rem;
   color: var(--header-text-color);
 }
 
 h2{
-  font-size: 4rem;
-}
-
-h3{
   font-size: 3rem;
 }
 
-p{
+h3{
   font-size: 2rem;
+}
+
+p{
+  font-size: 1.5rem;
   color: var(--main-text-color)
+}
+
+.proj{
+  font-size: 1.5rem;
+  margin-left: 5vw;
+}
+
+.proj a{
+  font-size: 1.5rem;
+  margin-left: 10vw;
 }
